@@ -10,6 +10,8 @@ namespace HelloWorldConsoleApplication
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!"); // Print Hellow world in the console
+            Console.Read(); // Wait for the user to terminate the program
         }
     }
 }
