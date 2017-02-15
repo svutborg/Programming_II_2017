@@ -23,12 +23,15 @@ namespace CircleClassExample
         Point c;
         double circ;
         double area;
+
+        public static int Counter { get; private set; }
         
         public Circle()
         {
             c = new Point(0,0);
             CalcArea();
             CalcCirc();
+            Counter++;
         }
         public Circle(double r, Point c)
         {
@@ -36,6 +39,7 @@ namespace CircleClassExample
             this.c = c;
             CalcArea();
             CalcCirc();
+            Counter++;
         }
 
         void CalcArea()
