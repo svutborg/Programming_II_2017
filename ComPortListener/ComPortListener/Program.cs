@@ -23,7 +23,7 @@ namespace ComPortListener
             sp.ReadExisting();
             sp.DataReceived += Sp_DataReceived;
 
-
+            
 
             Console.Read();
         }
