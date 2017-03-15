@@ -11,7 +11,7 @@ namespace TugOfWar
     {
         static bool victory = false;
         static Int64 rope = 0;
-        static Int64 scale = 5000;
+        static Int64 scale = 1000;
         static string Victor;
         static void Main(string[] args)
         {
